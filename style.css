@@ -1,0 +1,187 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ff;
+    color: #302744;
+    line-height: 1.8;
+}
+
+/* Home Section */
+header {
+    background: linear-gradient(135deg, #7752c9, #a78bfa);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+header h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+header p {
+    margin-bottom: 15px;
+}
+
+/* Button Styling */
+button {
+    background-color: white;
+    color: #7752c9;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #ede4ff;
+    transform: scale(1.05);
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* All Sections */
+section {
+    padding: 65px 12%;
+    text-align: center;
+}
+
+section h2 {
+    color: #7752c9;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+section h3 {
+    margin: 20px 0 15px;
+}
+
+section p {
+    max-width: 800px;
+    margin: 12px auto;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f3edff;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.skills-container span {
+    background-color: white;
+    color: #7752c9;
+    padding: 12px 22px;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px #00000010;
+    font-weight: bold;
+}
+
+/* Projects Section */
+#projects {
+    background-color: white;
+}
+
+.project-card {
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f3edff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #00000012;
+}
+
+/* Interests Section */
+#interests {
+    background-color: #f8f5ff;
+}
+
+.interests-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.interest-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 260px;
+    box-shadow: 0 5px 15px #00000012;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #eee5ff;
+}
+
+#contact a {
+    color: #6543bb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    header {
+        padding: 70px 15px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 45px 20px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    .interest-card {
+        width: 100%;
+    }
+}
