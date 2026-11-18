@@ -238,3 +238,17 @@ section p {
         font-size: 14px;
     }
 }
+
+/* Footer Styling */
+
+footer {
+    background-color: #302744;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
