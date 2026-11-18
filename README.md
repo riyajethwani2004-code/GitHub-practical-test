@@ -7,7 +7,7 @@
 
 **URN Number:** E25B032399
 
-**Semester:** 2nd Semester
+**Semester:** 3rd Semester
 
 **Section:** A
 
